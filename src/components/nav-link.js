@@ -1,5 +1,4 @@
-import React from "react"
-import { css } from "@emotion/core"
+
 import styled from "@emotion/styled"
 import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"

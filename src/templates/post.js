@@ -1,9 +1,8 @@
-/** @jsx jsx */
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react';
+import {  graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import styled from "@emotion/styled"
-import { css, jsx } from "@emotion/core"
+import { css} from "@emotion/core"
 import { rhythm } from "../../src/utils/typography"
 import Layout from "../components/layout"
 import StyledArrow from "../components/styled-arrow"

@@ -1,11 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import styled from "@emotion/styled"
-import { css, jsx } from "@emotion/core"
-import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
-import StyledArrow from "../components/styled-arrow"
+
 
 export const query = graphql`
   query($tag: String!) {

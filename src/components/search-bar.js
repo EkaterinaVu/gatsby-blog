@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
-import styled from "@emotion/styled"
+
 
 export default class SearchBar extends Component {
   constructor(props) {
@@ -15,7 +15,7 @@ export default class SearchBar extends Component {
   render() {
     return (
       <div>
-        <input type="text" value={this.state.query} onChange={this.search} />
+        <input type="text" value={this.state.query} onChange={this.search} placeholder='Search' />
         <ul>
           {this.state.results.map(page => (
             <li key={page.id}>

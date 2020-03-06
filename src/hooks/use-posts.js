@@ -2,8 +2,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 const usePosts = () => {
   const data = useStaticQuery(graphql`
-    query($skip: Int!, $limit: Int!) {
-      allMdx(limit: $limit, skip: $skip) {
+    query {
+      allMdx{
         nodes {
           frontmatter {
             author
